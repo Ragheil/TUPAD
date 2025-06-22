@@ -36,24 +36,24 @@ to_email = "RECEIVER_EMAIL@gmail.com"
 
 To generate a Gmail App Password:
 
-  -Enable 2-Step Verification on your Google account.
+  - Enable 2-Step Verification on your Google account.
   
-  -Visit: https://myaccount.google.com/apppasswords
+  - Visit: https://myaccount.google.com/apppasswords
   
-  -Generate a password for "Mail" > "Other (Custom name)".
+  - Generate a password for "Mail" > "Other (Custom name)".
   
-  -Use that password in your script.
+  - Use that password in your script.
   
 
 ⚠️ **Legal & Ethical Notice**
 
 Using this tool on any system you do not own or without consent may:
 
-  -Violate privacy laws
+  - Violate privacy laws
   
-  -Breach cybersecurity regulations
+  - Breach cybersecurity regulations
   
-  -Lead to legal prosecution
+  - Lead to legal prosecution
   
 
 💡 **Building into .exe (Optional)**
@@ -90,10 +90,10 @@ Email sent via Gmail with this file as attachment.
 
 It is provided to:
 
-  -Learn about browser encryption
+  - Learn about browser encryption
   
-  -Protect your own credentials
+  - Protect your own credentials
   
-  -Understand real-world software security
+  - Understand real-world software security
 
 
