@@ -2,15 +2,20 @@
 
 This project is strictly for **educational purposes only**. Any misuse—such as unauthorized data access or password extraction from devices you do not own—is illegal and unethical. You assume full responsibility for your actions. The author is not liable for any damage, misuse, or legal issues caused by this tool.
 
-By using or modifying this script, you accept full responsibility for your actions. The creator of this guide and tool is not liable for any misuse, damage, or legal repercussions that may result.
 
-🔎** How This Script Works**
+By using or modifying
+this script, you accept full responsibility for your actions. The creator of this guide and tool is not liable for any misuse, damage, or legal repercussions that may result.
+
+🔎 ** How This Script Works**
 This script interacts with Google Chrome's built-in password manager, which stores login credentials encrypted using the Windows Data Protection API (DPAPI).
+
 
 📦 **Dependencies**
 Run these in your terminal before using:
 
 pip install pywin32
+
+
 pip install pycryptodomex
 
 
